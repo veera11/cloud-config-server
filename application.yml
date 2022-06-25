@@ -1,7 +1,6 @@
 microservice:
-  paymet-service:
-    endpoint:
-      uri: http://payment-service/payment
+  payment-service:
+    uri: http://payment-service/payment
 
 eureka:
   client:
